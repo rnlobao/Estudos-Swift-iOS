@@ -63,5 +63,25 @@ for index in greeting.indices {
 var helloMyFriend = "Hello my "
 helloMyFriend.insert("f", at: helloMyFriend.endIndex)
 helloMyFriend.insert(contentsOf: "riend", at: helloMyFriend.endIndex)
-//we can also remove at
+//we can also remove chars
 helloMyFriend.remove(at: helloMyFriend.index(helloMyFriend.startIndex, offsetBy: 2))
+print(helloMyFriend)
+//and remove a range of chars or string
+var countriesInSouthAmerica = "Brasil Argentina Mexico"
+let range = countriesInSouthAmerica.index(countriesInSouthAmerica.startIndex, offsetBy: 16)..<countriesInSouthAmerica.endIndex
+countriesInSouthAmerica.removeSubrange(range)
+print(countriesInSouthAmerica)
+
+//to convert a substring to a string you only have to
+var substringToString = String("that")
+
+//you can also use hasPrefix() and has Suffix()
+var douglasSon = "Mario Alaba"
+if douglasSon.hasPrefix("Mario") {
+    print("Yes, its mario")
+}
+if douglasSon.hasSuffix("Alaba") {
+    print("Yes, its Alaba")
+}
+
+//

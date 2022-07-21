@@ -5,9 +5,8 @@
  Differences between classes and structs
  1) Classes have inheritance
  2) Classes have deinitializers : deinit()
- 3) We can have more than one reference to class instance
- 4) Classes dont have a default memberwise initializer
- 5) Classes are reference types, structs are value types
+ 3) Classes dont have a default memberwise initializer
+ 4) Classes are reference types, structs are value types
  */
 
 //Agora a gente vai criar uma classe e uma struct

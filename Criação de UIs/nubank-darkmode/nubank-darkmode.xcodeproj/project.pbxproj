@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91F4CEF62797BCBF007593FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CEF52797BCBF007593FF /* AppDelegate.swift */; };
+		91F4CEF82797BCBF007593FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CEF72797BCBF007593FF /* SceneDelegate.swift */; };
+		91F4CEFA2797BCBF007593FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CEF92797BCBF007593FF /* ViewController.swift */; };
+		91F4CEFD2797BCBF007593FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CEFB2797BCBF007593FF /* Main.storyboard */; };
+		91F4CEFF2797BCC0007593FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CEFE2797BCC0007593FF /* Assets.xcassets */; };
+		91F4CF022797BCC0007593FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF002797BCC0007593FF /* LaunchScreen.storyboard */; };
+		91F4CF1C2797C446007593FF /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF0A2797C444007593FF /* Poppins-Thin.ttf */; };
+		91F4CF1D2797C446007593FF /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF0B2797C445007593FF /* Poppins-BlackItalic.ttf */; };
+		91F4CF1E2797C446007593FF /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF0C2797C445007593FF /* Poppins-LightItalic.ttf */; };
+		91F4CF1F2797C446007593FF /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF0D2797C445007593FF /* Poppins-ExtraLight.ttf */; };
+		91F4CF202797C446007593FF /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF0E2797C445007593FF /* Poppins-Medium.ttf */; };
+		91F4CF212797C446007593FF /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF0F2797C445007593FF /* Poppins-Regular.ttf */; };
+		91F4CF222797C446007593FF /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF102797C445007593FF /* Poppins-SemiBoldItalic.ttf */; };
+		91F4CF232797C446007593FF /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF112797C445007593FF /* Poppins-ThinItalic.ttf */; };
+		91F4CF242797C446007593FF /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF122797C445007593FF /* Poppins-ExtraLightItalic.ttf */; };
+		91F4CF252797C446007593FF /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF132797C445007593FF /* Poppins-ExtraBoldItalic.ttf */; };
+		91F4CF262797C446007593FF /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF142797C445007593FF /* Poppins-Light.ttf */; };
+		91F4CF272797C446007593FF /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF152797C445007593FF /* Poppins-ExtraBold.ttf */; };
+		91F4CF282797C446007593FF /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF162797C445007593FF /* Poppins-SemiBold.ttf */; };
+		91F4CF292797C446007593FF /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF172797C445007593FF /* Poppins-Italic.ttf */; };
+		91F4CF2A2797C446007593FF /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF182797C445007593FF /* Poppins-Black.ttf */; };
+		91F4CF2B2797C446007593FF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF192797C445007593FF /* Poppins-Bold.ttf */; };
+		91F4CF2C2797C446007593FF /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF1A2797C445007593FF /* Poppins-BoldItalic.ttf */; };
+		91F4CF2D2797C446007593FF /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF1B2797C446007593FF /* Poppins-MediumItalic.ttf */; };
+		91F4CF3C2797CE4F007593FF /* NuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CF3A2797CE4F007593FF /* NuCollectionViewCell.swift */; };
+		91F4CF3D2797CE4F007593FF /* NuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CF3B2797CE4F007593FF /* NuCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91F4CEF22797BCBF007593FF /* nubank-darkmode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nubank-darkmode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F4CEF52797BCBF007593FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91F4CEF72797BCBF007593FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91F4CEF92797BCBF007593FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91F4CEFC2797BCBF007593FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91F4CEFE2797BCC0007593FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91F4CF012797BCC0007593FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91F4CF032797BCC0007593FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F4CF0A2797C444007593FF /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		91F4CF0B2797C445007593FF /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		91F4CF0C2797C445007593FF /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		91F4CF0D2797C445007593FF /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		91F4CF0E2797C445007593FF /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		91F4CF0F2797C445007593FF /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		91F4CF102797C445007593FF /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		91F4CF112797C445007593FF /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		91F4CF122797C445007593FF /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		91F4CF132797C445007593FF /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		91F4CF142797C445007593FF /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		91F4CF152797C445007593FF /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		91F4CF162797C445007593FF /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		91F4CF172797C445007593FF /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		91F4CF182797C445007593FF /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		91F4CF192797C445007593FF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		91F4CF1A2797C445007593FF /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		91F4CF1B2797C446007593FF /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		91F4CF3A2797CE4F007593FF /* NuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuCollectionViewCell.swift; sourceTree = "<group>"; };
+		91F4CF3B2797CE4F007593FF /* NuCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NuCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91F4CEEF2797BCBF007593FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91F4CEE92797BCBF007593FF = {
+			isa = PBXGroup;
+			children = (
+				91F4CEF42797BCBF007593FF /* nubank-darkmode */,
+				91F4CEF32797BCBF007593FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91F4CEF32797BCBF007593FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CEF22797BCBF007593FF /* nubank-darkmode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F4CEF42797BCBF007593FF /* nubank-darkmode */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CF092797C41B007593FF /* fonts */,
+				91F4CEF52797BCBF007593FF /* AppDelegate.swift */,
+				91F4CEF72797BCBF007593FF /* SceneDelegate.swift */,
+				91F4CEF92797BCBF007593FF /* ViewController.swift */,
+				91F4CEFB2797BCBF007593FF /* Main.storyboard */,
+				91F4CEFE2797BCC0007593FF /* Assets.xcassets */,
+				91F4CF002797BCC0007593FF /* LaunchScreen.storyboard */,
+				91F4CF032797BCC0007593FF /* Info.plist */,
+				91F4CF3A2797CE4F007593FF /* NuCollectionViewCell.swift */,
+				91F4CF3B2797CE4F007593FF /* NuCollectionViewCell.xib */,
+			);
+			path = "nubank-darkmode";
+			sourceTree = "<group>";
+		};
+		91F4CF092797C41B007593FF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CF182797C445007593FF /* Poppins-Black.ttf */,
+				91F4CF0B2797C445007593FF /* Poppins-BlackItalic.ttf */,
+				91F4CF192797C445007593FF /* Poppins-Bold.ttf */,
+				91F4CF1A2797C445007593FF /* Poppins-BoldItalic.ttf */,
+				91F4CF152797C445007593FF /* Poppins-ExtraBold.ttf */,
+				91F4CF132797C445007593FF /* Poppins-ExtraBoldItalic.ttf */,
+				91F4CF0D2797C445007593FF /* Poppins-ExtraLight.ttf */,
+				91F4CF122797C445007593FF /* Poppins-ExtraLightItalic.ttf */,
+				91F4CF172797C445007593FF /* Poppins-Italic.ttf */,
+				91F4CF142797C445007593FF /* Poppins-Light.ttf */,
+				91F4CF0C2797C445007593FF /* Poppins-LightItalic.ttf */,
+				91F4CF0E2797C445007593FF /* Poppins-Medium.ttf */,
+				91F4CF1B2797C446007593FF /* Poppins-MediumItalic.ttf */,
+				91F4CF0F2797C445007593FF /* Poppins-Regular.ttf */,
+				91F4CF162797C445007593FF /* Poppins-SemiBold.ttf */,
+				91F4CF102797C445007593FF /* Poppins-SemiBoldItalic.ttf */,
+				91F4CF0A2797C444007593FF /* Poppins-Thin.ttf */,
+				91F4CF112797C445007593FF /* Poppins-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91F4CEF12797BCBF007593FF /* nubank-darkmode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F4CF062797BCC0007593FF /* Build configuration list for PBXNativeTarget "nubank-darkmode" */;
+			buildPhases = (
+				91F4CEEE2797BCBF007593FF /* Sources */,
+				91F4CEEF2797BCBF007593FF /* Frameworks */,
+				91F4CEF02797BCBF007593FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nubank-darkmode";
+			productName = "nubank-darkmode";
+			productReference = 91F4CEF22797BCBF007593FF /* nubank-darkmode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91F4CEEA2797BCBF007593FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					91F4CEF12797BCBF007593FF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 91F4CEED2797BCBF007593FF /* Build configuration list for PBXProject "nubank-darkmode" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91F4CEE92797BCBF007593FF;
+			productRefGroup = 91F4CEF32797BCBF007593FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F4CEF12797BCBF007593FF /* nubank-darkmode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91F4CEF02797BCBF007593FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F4CF242797C446007593FF /* Poppins-ExtraLightItalic.ttf in Resources */,
+				91F4CF292797C446007593FF /* Poppins-Italic.ttf in Resources */,
+				91F4CF272797C446007593FF /* Poppins-ExtraBold.ttf in Resources */,
+				91F4CF022797BCC0007593FF /* LaunchScreen.storyboard in Resources */,
+				91F4CF1E2797C446007593FF /* Poppins-LightItalic.ttf in Resources */,
+				91F4CF1C2797C446007593FF /* Poppins-Thin.ttf in Resources */,
+				91F4CF2B2797C446007593FF /* Poppins-Bold.ttf in Resources */,
+				91F4CF2A2797C446007593FF /* Poppins-Black.ttf in Resources */,
+				91F4CF282797C446007593FF /* Poppins-SemiBold.ttf in Resources */,
+				91F4CF232797C446007593FF /* Poppins-ThinItalic.ttf in Resources */,
+				91F4CF252797C446007593FF /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				91F4CF3D2797CE4F007593FF /* NuCollectionViewCell.xib in Resources */,
+				91F4CF212797C446007593FF /* Poppins-Regular.ttf in Resources */,
+				91F4CF262797C446007593FF /* Poppins-Light.ttf in Resources */,
+				91F4CF1D2797C446007593FF /* Poppins-BlackItalic.ttf in Resources */,
+				91F4CF222797C446007593FF /* Poppins-SemiBoldItalic.ttf in Resources */,
+				91F4CEFF2797BCC0007593FF /* Assets.xcassets in Resources */,
+				91F4CF202797C446007593FF /* Poppins-Medium.ttf in Resources */,
+				91F4CEFD2797BCBF007593FF /* Main.storyboard in Resources */,
+				91F4CF1F2797C446007593FF /* Poppins-ExtraLight.ttf in Resources */,
+				91F4CF2D2797C446007593FF /* Poppins-MediumItalic.ttf in Resources */,
+				91F4CF2C2797C446007593FF /* Poppins-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F4CEEE2797BCBF007593FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F4CEFA2797BCBF007593FF /* ViewController.swift in Sources */,
+				91F4CEF62797BCBF007593FF /* AppDelegate.swift in Sources */,
+				91F4CEF82797BCBF007593FF /* SceneDelegate.swift in Sources */,
+				91F4CF3C2797CE4F007593FF /* NuCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91F4CEFB2797BCBF007593FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F4CEFC2797BCBF007593FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91F4CF002797BCC0007593FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F4CF012797BCC0007593FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91F4CF042797BCC0007593FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91F4CF052797BCC0007593FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91F4CF072797BCC0007593FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nubank-darkmode/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robson.nubank-darkmode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91F4CF082797BCC0007593FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nubank-darkmode/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robson.nubank-darkmode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91F4CEED2797BCBF007593FF /* Build configuration list for PBXProject "nubank-darkmode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F4CF042797BCC0007593FF /* Debug */,
+				91F4CF052797BCC0007593FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F4CF062797BCC0007593FF /* Build configuration list for PBXNativeTarget "nubank-darkmode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F4CF072797BCC0007593FF /* Debug */,
+				91F4CF082797BCC0007593FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91F4CEEA2797BCBF007593FF /* Project object */;
+}

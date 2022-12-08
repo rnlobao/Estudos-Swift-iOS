@@ -1,0 +1,6 @@
+framework module Pods_filtro_tempo_real {
+  umbrella header "Pods-filtro-tempo-real-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -34,7 +34,7 @@ Nesse bloco de codigo nos basicamente temos o Piano como uma subclasse do Instru
 
 Se voce notar, no init tem um **super.init** ele chama o init da classe pai que no caso é o Instrument e usa o brand dele pra colocar na classe filho.
 
-Além de dar um overrida na funcao pai para atender as necessidades da subclasse
+Além de dar um override na funcao pai para atender as necessidades da subclasse
 
 
 

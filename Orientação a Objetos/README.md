@@ -66,3 +66,20 @@ class AcousticGuitar: Guitar {
     return "Play folk tune on frets \(preparedNotes)."
   }
 }
+```
+
+
+<h2>Private vars</h2>
+
+Podemos ter tambem dentro de uma classe variaveis privadas, ou seja, so aquela classe enxerga ela e por convencao usamos o comeco do nome dela com um underline, assim:
+
+```
+private var _volume: Int
+```
+
+Ou se quisermos ser mais específicos podemos passar que uma variavel so pode ser lida por exemplo, ai declaramos ela como:
+
+```
+private(set) var isOn: Bool
+```
+

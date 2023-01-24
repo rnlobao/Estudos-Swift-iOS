@@ -36,6 +36,36 @@ Se voce notar, no init tem um **super.init** ele chama o init da classe pai que 
 
 Além de dar um override na funcao pai para atender as necessidades da subclasse
 
+<h2>Classes abstratas</h2>
+
+```
+class Guitar: Instrument {
+  let stringGauge: String
+  
+  init(brand: String, stringGauge: String = "medium") {
+    self.stringGauge = stringGauge
+    super.init(brand: brand)
+  }
+}
+
+Aqui há a criacao de uma classe abstrata
+
+E abaixo uma classe concreta que herda da abstrata, onde damos o override necessarios nos metodos de um instrumento:
+
+```
+class AcousticGuitar: Guitar {
+  static let numberOfStrings = 6
+  static let fretCount = 20
+  
+  override func tune() -> String {
+    return "Tune \(brand) acoustic with E A D G B E"
+  }
+  
+  override func play(_ music: Music) -> String {
+    let preparedNotes = super.play(music)
+    return "Play folk tune on frets \(preparedNotes)."
+  }
+}
 
 
 

@@ -66,8 +66,3 @@ class AcousticGuitar: Guitar {
     return "Play folk tune on frets \(preparedNotes)."
   }
 }
-
-
-
-
-

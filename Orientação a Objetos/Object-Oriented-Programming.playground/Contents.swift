@@ -52,6 +52,13 @@ class Piano: Instrument {
   }
 }
 
+let piano = Piano(brand: "Yamaha", hasPedals: true)
+piano.tune()
+let music = Music(notes: ["C", "G", "F"])
+piano.play(music)
+Piano.whiteKeys
+Piano.blackKeys
+
 class Guitar: Instrument {
   let stringGauge: String
   
@@ -145,6 +152,42 @@ class BassGuitar: Guitar {
     return "Play bass line \(preparedNotes) at volume \(amplifier.volume)."
   }
 }
+
+let amplifier = Amplifier()
+let electricGuitar = ElectricGuitar(brand: "Gibson", stringGauge: "medium", amplifier: amplifier)
+electricGuitar.tune()
+
+let bassGuitar = BassGuitar(brand: "Fender", stringGauge: "heavy", amplifier: amplifier)
+bassGuitar.tune()
+bassGuitar.amplifier.volume
+electricGuitar.amplifier.volume
+
+bassGuitar.amplifier.unplug()
+bassGuitar.amplifier.volume
+electricGuitar.amplifier.volume
+
+bassGuitar.amplifier.plugIn()
+bassGuitar.amplifier.volume
+electricGuitar.amplifier.volume
+
+
+class Band {
+  let instruments: [Instrument]
+  
+  init(instruments: [Instrument]) {
+    self.instruments = instruments
+  }
+  
+  func perform(_ music: Music) {
+    for instrument in instruments {
+      instrument.perform(music)
+    }
+  }
+}
+
+let instruments = [piano, acousticGuitar, electricGuitar, bassGuitar]
+let band = Band(instruments: instruments)
+band.perform(music)
 
 
 

@@ -83,3 +83,22 @@ Ou se quisermos ser mais específicos podemos passar que uma variavel so pode se
 private(set) var isOn: Bool
 ```
 
+<h2>Polimorfismo</h2>
+
+Capacidade de classes filhos poderem utilizar métodos definidos no pai, mesmo que todas as classes filhos sejam diferentes.<br>
+Em Swift há tambem o POP que é a Programacao orientada a Protocolo.
+
+<img width="673" alt="image" src="https://user-images.githubusercontent.com/66230142/214979485-fd654b37-aa79-403a-bb37-429318d0219a.png">
+
+<br>
+
+<h2>Controle de acesso</h2>
+
+Conceito que ja foi citado na parte da documentacao mas e bom relembrar é as caracterisiticas de uma var/func de acordo com a possibilidade de acessar ela ou nao.
+
+* Private: visivel na classe
+* Fileprivate: visivel no arquivo todo
+* Public: visivel pra todo mundo
+* Internal: visivel no modulo 
+* Open: classe pode ser lido de qualquer modulo e herdado e subscrito
+* Final: classe nao pode ser herdada nem subscrita

@@ -107,5 +107,44 @@ class Amplifier {
 }
 
 
+class ElectricGuitar: Guitar {
+  let amplifier: Amplifier
+  
+  init(brand: String, stringGauge: String = "light", amplifier: Amplifier) {
+    self.amplifier = amplifier
+    super.init(brand: brand, stringGauge: stringGauge)
+  }
+  
+  override func tune() -> String {
+    amplifier.plugIn()
+    amplifier.volume = 5
+    return "Tune \(brand) electric with E A D G B E"
+  }
+  
+  override func play(_ music: Music) -> String {
+    let preparedNotes = super.play(music)
+    return "Play solo \(preparedNotes) at volume \(amplifier.volume)."
+  }
+}
+
+class BassGuitar: Guitar {
+  let amplifier: Amplifier
+
+  init(brand: String, stringGauge: String = "heavy", amplifier: Amplifier) {
+    self.amplifier = amplifier
+    super.init(brand: brand, stringGauge: stringGauge)
+  }
+
+  override func tune() -> String {
+    amplifier.plugIn()
+    return "Tune \(brand) bass with E A D G"
+  }
+
+  override func play(_ music: Music) -> String {
+    let preparedNotes = super.play(music)
+    return "Play bass line \(preparedNotes) at volume \(amplifier.volume)."
+  }
+}
+
 
 
